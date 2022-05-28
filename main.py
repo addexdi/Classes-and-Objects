@@ -36,6 +36,7 @@ Student.change_age(self = Student, age = 34)
 Student.add_track(self = Student, tracks = ["UI/UX"])
 Student.get_score(self = Student, score = 50.00 )
 
+# Expected input
 Student.change_name(self = Student, name = input("Type in your name: "))
 Student.change_age(self = Student, age = input("Type in your age: "))
 Student.add_track(self = Student, tracks = [input("Type in your tracks: ")])
