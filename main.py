@@ -20,7 +20,7 @@ class Student:
     def add_track(self, tracks):
                     self.tracks = tracks
                     print ("My updated tracks are ", self.tracks)
-                    self.tracks = tracks.append(self.tracks)
+                    self.tracks = tracks.append(list(tracks))
 
     def get_score(self, score):
                         self.score = score
