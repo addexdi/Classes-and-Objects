@@ -17,10 +17,10 @@ class Student:
                 self.age = age
                 print ("My age is ", int(self.age))
             
-    def add_track(self, track):
-                    self.track = track
-                    print ("My track are ", list(self.track))
-                    self.track = track.append(list)
+    def add_track(self, tracks):
+                    self.tracks = tracks
+                    print ("My track are ", list(self.tracks))
+                    self.tracks = tracks.append(list)
 
     def get_score(self, score):
                         self.score = score
@@ -33,5 +33,5 @@ Bob = Student(name="Bob", age=26, tracks=["FE","BE"],score=20.90)
 # Expected methods
 Student.change_name(self = Student, name= "Peter")
 Student.change_age(self = Student, age = 34)
-Student.add_track(self = Student, track = ["UI/UX"])
+Student.add_track(self = Student, tracks = ["UI/UX"])
 Student.get_score(self = Student, score = 50.00 )
